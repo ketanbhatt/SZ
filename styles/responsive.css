@@ -1,0 +1,133 @@
+@media (max-width: 1000px){
+/*------------universal-------------*/
+	.container{
+		max-width: 85%%;
+	}
+
+	/*------------header-------------*/
+
+	.header-col-2 li {
+	margin-left: 20px;
+
+	}
+
+	.header-col-2 li a {
+	font-size: 12px;
+	
+	}
+
+	.header-col-1 img {
+	margin-top: 30px;
+	width:70%;
+
+}
+
+.search-box{
+	width: 150px;
+	
+
+}
+
+.search-button {
+	width: 60px;
+	height: 29px;
+	font-size: 11px;
+}
+	 
+	/*------------hero-------------*/
+
+	.hero-col-1 h1{
+	font-family: 'Merriweather',serif;
+	font-size: 35px;
+}
+
+	.hero-col-1 p{
+	font-family: 'Merriweather',serif;
+	font-size:14.01px;
+	line-height: 250%;
+}
+
+.hero button{
+	width: 160px;
+	height: 50px;
+	font-size:15px;
+}
+	/*------------icons-------------*/
+	.icon-list h3{
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	color: #033a74
+}
+	.icon-list p{
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+	line-height: 200%;
+	color: #b9b8b8;
+	
+}
+
+	.icons-icon{
+		width:50px;
+
+	}
+
+	/*------------clientele-------------*/
+	.client-images{
+	
+	display:none;
+	}
+	
+	.client-wrap h2{
+		font-size: 30px;
+	}
+
+	.client-images-small{
+		display:inline;
+		box-sizing: border-box;
+	}
+
+	.client-images-small li{
+		float:left;
+		margin-left:3%;
+		width:23.5%;
+		height: 77px;
+		background: url("../img/client2-small.png");
+		background-repeat: no-repeat;
+}
+
+}
+
+@media (max-width:850px) {
+	.container{
+		max-width:95%;
+	}
+	.header-col-2 nav{
+		display: none;
+		font-size: 10px;
+		
+	}
+
+	.header-col-2{
+		margin-top:0px;
+	}
+}
+
+@media (max-width: 760px){
+	.blue-bar{
+		height:25px;
+	}
+
+	.ham{
+		padding-top: 5px;
+		display: visible;
+	}
+
+	.search-ham{
+		float: right;
+		display: visible;
+	}
+
+	.search{
+		display: none;
+	}
+}

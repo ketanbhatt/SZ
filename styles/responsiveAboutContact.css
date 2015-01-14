@@ -1,0 +1,66 @@
+@media (max-width: 1000px) {
+
+	/*---------------About-----------------*/
+
+	.about-page-company h2, .about-page-team  h2 {
+		font-size: 41px;
+	}
+
+	.about-page-company h3, .about-page-team  h3 {
+		font-size: 22px;
+	}
+
+	.about-page-company p, .about-page-team  p {
+		font-size: 18.01px;
+		line-height: 200%;
+	}
+
+
+}
+
+
+
+@media (max-width: 760px) {
+
+	/*---------------About-----------------*/
+
+
+	.about-page-company h2, .about-page-team  h2 {
+		font-size: 31px;
+	}
+
+	.about-page-company h3, .about-page-team  h3 {
+		font-size: 18px;
+	}
+
+	.about-page-company p, .about-page-team  p {
+		font-size: 14.01px;
+		line-height: 150%;
+	}
+	
+
+	.about-team-list li {
+		height: 200px;
+	}
+}
+
+
+@media (max-width: 420px) {
+
+
+	/*---------------About-----------------*/
+
+	.about-page-company h2, .about-page-team  h2 {
+		font-size: 22px;
+	}
+
+	.about-page-company h3, .about-page-team  h3 {
+		font-size: 12px;
+	}
+
+	.about-page-company p, .about-page-team  p {
+		font-size: 12px;
+		line-height: 100%;
+	}
+
+}
