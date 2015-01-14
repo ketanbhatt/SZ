@@ -258,3 +258,55 @@ header{
 			height: 20px;
 		}
 }
+
+@media (max-width: 690px) {
+		
+		.hero-col-2 button{
+			width: 130px;
+			height: 40px;
+			padding-top: 0px;
+		}
+
+		.hero-col-1 h1{
+		font-family: 'Merriweather',serif;
+		font-size: 20px;
+		float: left;
+		margin: 0px 0px 10px 0px;
+		}
+
+		.hero-col-1 p{
+		font-family: 'Merriweather',serif;
+		font-size:12.01px;
+		line-height: 150%;
+		padding-bottom: 0px;
+		}
+
+		.hero-col-1{
+			max-width: 60%;
+			float: none;
+			height: 100px;
+		}
+
+		.hero-col-2{
+			padding-top: 0px;
+		}
+		
+
+		.icons{
+			height: 190px;
+		}
+		.icons h3{
+			font-size: 13px;
+		}
+
+		.icons p{
+			margin: 5px 0px;
+			line-height:150%;
+			font-size: 12px;
+		}
+
+		.icons-icon{
+			width: 35px;
+			height: 30px;
+		}
+}
