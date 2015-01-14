@@ -160,8 +160,8 @@ header nav a:hover {
 .hero-col-1{
 	float:left;
 	padding-top: 20px;
-	max-width: 600px;
-	width: 55%;
+	max-width: 450px;
+	
 	color: #fff;
 }
 
@@ -552,7 +552,7 @@ footer .footer-col-2 {
 	margin-right: 8px;
 	position: relative;
 
-	padding-left: 15px;
+	padding-top: 10px;
 	font-size: 18px;
 	font-family: 'Merriweather', serif;
 	transition: background-color, 0.5s;
@@ -605,7 +605,7 @@ footer .footer-col-2 {
 
 .third-contact{
 	left: 50px;
-	bottom: -8px;
+	bottom: -15px;
 }
 
 

@@ -3,6 +3,7 @@
 	footer .footer-col-1 {
 		width: 25%;
 		text-align: right;
+		font-size: 15px;
 	}
 
 	footer hr {
@@ -11,6 +12,7 @@
 
 	footer .footer-col-2 {
 		width: 75%;
+		font-size: 15px;
 	}
 	
 }

@@ -39,8 +39,15 @@
 	}
 
 	/*------------Form in Index------------*/
+	
+	.contact{
+		padding-top: 5px;
+	}
+
 	.contact h2{
-		font-size: 35px;
+		font-size: 25px;
+		padding-bottom:0px;
+		margin:10px 0px 15px 0px;
 	}
 
 	.contact-col-1 input {
@@ -51,6 +58,15 @@
 	.contact textarea {
 		width: 160px;
 		height: 114px;			
+	}
+
+	.contact input[type="submit"]{
+		width: 130px;
+		height: 40px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 20px;
+		padding: 0px;
 	}
 
 }
