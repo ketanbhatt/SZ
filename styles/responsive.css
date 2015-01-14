@@ -24,8 +24,8 @@
 
 .search-box{
 	width: 150px;
-	
-
+	margin-right: 10px;
+	margin-top: 2px;
 }
 
 .search-button {
@@ -71,8 +71,8 @@
 }
 
 	.icons-icon{
-		width:50px;
-
+		height: 40px;
+		width:45px;
 	}
 
 	/*------------clientele-------------*/
@@ -160,7 +160,7 @@ header{
 	}
 
 	.ham{
-		padding-top: 12px;
+		padding-top: 15px;
 		display:block;
 		float:left;
 	}
@@ -207,8 +207,8 @@ header{
 
 	.hero-col-1 p{
 		font-family: 'Merriweather',serif;
-		font-size:10.01px;
-		line-height: 200%;
+		font-size:13.01px;
+		line-height: 150%;
 		color: white;
 		float:left;
 		margin: 5px 0px 0px 0px;
@@ -233,7 +233,7 @@ header{
 		}
 
 		.icons-icon{
-			width:50px;
+			
 		}
 		
 		/*------------------clientele---------------*/
