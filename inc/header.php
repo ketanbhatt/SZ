@@ -87,12 +87,16 @@
 <?php 
 					if($pageName != "SupplyZone | Home Page"){
 
+						echo "<div id='form-hero'>";
+
 							include 'form.php';
+
+						echo "</div>";
 							
 					} else {
 ?>
 					
-					<button type = "Read More Button"> Read More </Button>
+					<button>Read More</Button>
 <?php
 					}}
 ?>
