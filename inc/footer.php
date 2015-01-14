@@ -33,7 +33,7 @@
 							<ul>
 								<li class = "first-contact"> jcbhatt@supplyzone.com </li>
 								<li class = "second-contact">+91-7838970330 </li>
-								<li class = "third-contact"> C-31/Y-1, MIG Flats Dilshad Garden, Delhi-95  </li>
+								<li class = "third-contact"> C-31/Y-1, MIG Flats Dilshad Garden, Delhi-95</li>
  
 							</ul>
 						</div>
