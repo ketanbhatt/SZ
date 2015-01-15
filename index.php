@@ -18,7 +18,7 @@
 								consectetur adipiscing elit. 
 								Proin magna justo, mollis 
 								nec sollicitudin non, 
-								Suspendisse bibendum in
+								Suspendisse bibendum 
 							 
 							</p>
 						
@@ -31,7 +31,7 @@
 							consectetur adipiscing elit. 
 							Proin magna justo, mollis 
 							nec sollicitudin non, 
-							Suspendisse bibendum in  
+							Suspendisse bibendum  
 							 
 						</p>
 					</li>
@@ -43,7 +43,7 @@
 							consectetur adipiscing elit. 
 							Proin magna justo, mollis 
 							nec sollicitudin non, 
-							Suspendisse bibendum in
+							Suspendisse bibendum 
 							
 						</p>
 					</li>
