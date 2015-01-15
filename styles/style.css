@@ -345,8 +345,8 @@ header nav a:hover {
 }
 
 .product-col-1 {
-	width: 45%;
-	height: 80%;
+	width: 200px;
+	height: 200px;
 	border-radius: 10px;
 	float: left;
 	background-color: #b9b8b8;
