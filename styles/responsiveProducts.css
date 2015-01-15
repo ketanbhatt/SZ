@@ -59,7 +59,8 @@
 	}
 
 	.product-col-1 {
-		width: 35%;
+		margin-left: 20px;
+		width: 25%;
 		height: 70%;
 	}
 
@@ -88,6 +89,12 @@
 	
 	.products-list li {
 		height: 140px;
+	}
+
+	.product-col-1 {
+		margin-left: 5px;
+		width: 35%;
+		height: 70%;
 	}
 
 
