@@ -97,7 +97,10 @@ header{
 	right: 0;
 	
 }
-
+.search-ham img{
+			display: none;
+		}
+		
 
 .search-button {
 	width: 75px;

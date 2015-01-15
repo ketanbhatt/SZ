@@ -29,7 +29,7 @@
 					<div class = "ham"> <img src="img/hamburger.png"> </div>
 					<div class = "search-ham">
 						<input class = "search-box" type = "text" name = "Search"/>
-						<button class = "search-button">Search</button>
+						<button class = "search-button"><span>Search</span> <img src = "img/search-icon.png"/></button>
 					</div>
 				</div>
 			</div>
