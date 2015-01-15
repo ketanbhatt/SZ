@@ -15,7 +15,7 @@
 		foreach($categories as $id => $category){
 ?>
 			<li>
-				<div class="product-col-1" style="background: url(<?php echo $category["img"]; ?>)">
+				<div class="product-col-1" style="background: url(<?php echo $category["img"]; ?>);background-size:cover">
 		<!--			<img src="<?php echo $category["img"]; ?>">  -->
 				</div>
 				<div class="product-col-2">

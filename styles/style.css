@@ -349,6 +349,7 @@ header nav a:hover {
 	height: 80%;
 	border-radius: 10px;
 	float: left;
+	background-color: #b9b8b8;
 	box-sizing: border-box;
 }
 
