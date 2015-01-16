@@ -31,7 +31,7 @@
 			<ul class="about-team-list">
 				<li>
 					<div class="team-col-1">
-						<img src="img/team/001.jpeg">
+						<img src="img/about/001.jpg">
 					</div>
 					<div class="team-col-2">
 						<h3>Jagdish Bhatt</h3>
@@ -52,7 +52,7 @@
 
 				<li>
 					<div class="team-col-1">
-						<img src="img/team/002.jpeg">
+						<img src="img/about/002.jpg">
 					</div>
 					<div class="team-col-2">
 						<h3>Vinayak</h3>
@@ -73,7 +73,7 @@
 
 				<li>
 					<div class="team-col-1">
-						<img src="img/team/003.jpeg">
+						<img src="img/about/003.jpg">
 					</div>
 					<div class="team-col-2">
 						<h3>Rajesh</h3>
@@ -94,7 +94,7 @@
 
 				<li>
 					<div class="team-col-1">
-						<img src="img/team/004.jpeg">
+						<img src="img/about/004.jpg">
 					</div>
 					<div class="team-col-2">
 						<h3>Prashant</h3>

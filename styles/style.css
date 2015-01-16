@@ -451,6 +451,7 @@ header nav a:hover {
 	box-sizing: border-box;
 	width: 30%;
 	height: 60%;
+	text-align: center;
 }
 
 .team-col-2 {
@@ -464,6 +465,10 @@ header nav a:hover {
 	margin: 0;
 }
 
+.team-col-1>img {
+	width: 200px;
+	height: 250px;
+}
 
 /*---------Contact Page-----------*/
 
