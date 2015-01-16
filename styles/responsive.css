@@ -5,7 +5,10 @@
 	}
 
 	/*------------header-------------*/
-
+	
+	header{
+		height: 100px;
+	}
 	.header-col-2 li {
 	margin-left: 20px;
 
@@ -119,8 +122,12 @@
 
 @media (max-width: 760px){
 header{
-		height: 100px;
+		height: 60px;
 	}
+
+.logo{
+	margin: auto;
+}
 	.blue-bar{
 		height:45px;
 		margin-bottom: 0px;

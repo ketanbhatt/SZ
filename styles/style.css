@@ -68,6 +68,28 @@ button, input[type="submit"] {
 	margin-bottom: 20px;
 }
 
+.nav-ele{
+	display: none;
+}
+
+.nav-ele li{
+	background-color: rgba(3,58,116,0.7);
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #b9b8b8;
+	
+}
+
+.nav-ele li:first-child{
+	padding-top: 10px
+}
+
+.nav-ele li a{
+	color: white;
+}
+
 header{
 	border-bottom: 1px solid  #b9b8b8 ; 
 }

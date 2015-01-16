@@ -15,16 +15,15 @@
 		<!--Font style-->
 		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
-
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src = "app.js"></script>
 	</head>
 
 	<body>
 
 		<!--Header begins-->
-		<header>
-				<div class = "header-nav">
 
-			<div class="blue-bar">
+		<div class="blue-bar">
 				<div class = "container">
 					<div class = "ham"> <img src="img/hamburger.png"> </div>
 					<div class = "search-ham">
@@ -33,6 +32,20 @@
 					</div>
 				</div>
 			</div>
+				<div class = "nav-ele">
+					<nav>
+						<ul>
+							<li> <a href = "index.php">HOME</a></li>
+							<li> <a href = "products.php">PRODUCTS</a></li>
+							<li> <a href = "about.php">ABOUT</a></li>
+							<li> <a href = "contact.php">CONTACT</a></li>
+						</ul>
+					</nav>
+					</div>
+		<header>
+				<div class = "header-nav">
+
+			
 			<div class = "container">
 				<div class="header-col-1">
 					<div class = "logo">
@@ -44,6 +57,7 @@
 						<input class = "search-box" type = "text" name = "Search"/>
 						<button class = "search-button">Search</button>
 					</div>
+					
 					<nav>
 						<ul>
 							<li> <a href = "index.php">HOME</a></li>
@@ -52,7 +66,7 @@
 							<li> <a href = "contact.php">CONTACT</a></li>
 						</ul>
 					</nav>
-					</div>
+					
 			</div>
 		</div>			
 		<div style="clear:both;"></div>
