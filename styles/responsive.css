@@ -559,17 +559,22 @@ header{
 }	
 
 @media(max-width: 305px){
-			.search-box{
+
+		.search-box{
 			width:30%;
-			margin-left: 25%;
+			float: none;
+			height: 10%;
+			position: relative;
+			
 			}
 
 			.search-ham button {
 			width: 40px;
 			height: 25px;
 			font-size: 12px;
-			float: right;
+			float: none;
 			padding-bottom: 7px;
+			position: relative;
 			}
 
 			.logo {
@@ -582,3 +587,38 @@ header{
 			}
 
 }
+
+@media(max-width: 289px){
+		.search-box{
+			width:30%;
+			float: none;
+			height: 10%;
+			position: relative;
+			top: -35px;
+			}
+
+			.search-ham button {
+			width: 40px;
+			height: 25px;
+			font-size: 12px;
+			float: none;
+			padding-bottom: 7px;
+			position: relative;
+			top:-35px;
+			}
+			
+			.ham{
+				float: none;
+			}
+			
+
+		header{
+				height: 90px;
+			}
+
+			.logo{
+				position: relative;
+				top: -19px;
+			}
+
+	}
