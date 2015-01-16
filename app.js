@@ -25,4 +25,12 @@ jQuery(document).ready(function($){
 		$(".search-drop-menu").slideToggle();
 		$(this).toggleClass("active");
 		});
+
+	$(window).resize(function(){
+		if(window.innerWidth > 590) {
+			$(".search-drop-menu").hide();
+			$(".nav-ele").hide();
+			$(".ham-press").hide();
+		}
+	});
 });
