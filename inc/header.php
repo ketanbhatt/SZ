@@ -24,11 +24,15 @@
 		<!--Header begins-->
 
 		<div class="blue-bar">
+
 				<div class = "container">
-					<div class = "ham"> <img src="img/hamburger.png"> </div>
+					<div class = "ham"> <img src="img/hamburger.png"> </div> <div class = "ham-press">  <img src="img/ham-press.png">  </div>
+					
+					<button class = "search-button-icon"><img src = "img/search-icon.png"/></button>
 					<div class = "search-ham">
 						<input class = "search-box" type = "text" name = "Search"/>
-						<button class = "search-button"><span>Search</span> <img src = "img/search-icon.png"/></button>
+						
+						<button class = "search-button"><span>Search</span></button>
 					</div>
 				</div>
 			</div>
@@ -42,11 +46,18 @@
 						</ul>
 					</nav>
 					</div>
+					<div class = "search-drop-menu">
+						<div class = "center-div">
+					 		<input class = "search-drop" type = "text" name = "Search"/> 
+							<button class = "button" class = "search-button-2"> Search</button>
+						</div>
+					</div>
 		<header>
 				<div class = "header-nav">
 
 			
 			<div class = "container">
+
 				<div class="header-col-1">
 					<div class = "logo">
 						<img src = "img/logo.png " alt="This is the logo" />

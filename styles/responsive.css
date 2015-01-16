@@ -172,6 +172,14 @@ header{
 		float:left;
 	}
 
+	.ham-press{
+		position: relative;
+		float: left;
+		right: 0px;
+		top: 15px;
+		display: none;
+	}
+
 	.header-col-1 img{
 		margin-top: 5px;
 		}
@@ -338,16 +346,24 @@ header{
 		.search-box{
 			width:35%;
 			margin-left: 43%;
+			display: none;
 		}
+
+		.search-drop{
+	position: relative;
+	width:100px;
+	margin-left: 33%;
+}
 
 		span{
 			display: none;
 		}
 		
-		.search-ham img{
+		.search-button-icon img{
 			display: block;
-			width:20px;
-			height: 20px;
+			width:25px;
+			height: 25px;
+
 		}
 		
 		.header-col-1{
@@ -359,12 +375,23 @@ header{
 			width: 250px;
 		}
 
+		.search-button-icon{
+			width: 40px;
+			height: 25px;
+			font-size: 12px;
+			float: right;
+			padding:0px 0px 0px 7px;
+			display: inline;
+			margin-top: 10px;
+		}
+
 		.search-ham button {
 			width: 40px;
 			height: 25px;
 			font-size: 12px;
 			float: right;
-			padding-bottom: 7px;
+			padding:0px 0px 0px 7px;
+			display: none;
 			}
 
 
@@ -372,6 +399,8 @@ header{
 			font-size: 18px;
 			margin: 0px 0px 6px 0px;
 		}
+
+
 
 		.hero-col-1 p{
 			font-size: 10px;
@@ -449,7 +478,12 @@ header{
 }
 
 @media(max-width: 480px){
-
+			
+			.search-drop{
+				position: relative;
+				width:100px;
+				margin-left: 30%;
+			}
 			.hero{
 				height: 250px;
 				background-position: -200px -100px;
@@ -531,7 +565,12 @@ header{
 			padding-right: 15%;
 			padding-top: 20px;
 		}
-
+			
+			.search-drop{
+	position: relative;
+	width:100px;
+	margin-left: 28%;
+}
 }		
 
 @media(max-width: 379px){
@@ -540,6 +579,12 @@ header{
 			padding-right: 12%;
 			padding-top: 20px;
 		}
+
+		.search-drop{
+	position: relative;
+	width:100px;
+	margin-left: 26%;
+}
 
 }		
 
@@ -565,7 +610,7 @@ header{
 
 }	
 
-@media(max-width: 305px){
+@media(max-width: 306px){
 
 		.search-box{
 			width:30%;
@@ -590,10 +635,25 @@ header{
 			}
 
 			header{
-				height: 80px;
+				height: 40px;
 			}
 
-}
+			.client-images-small li {
+				width: 100px;
+				height: 45px;
+				background-size: 110px 50px;
+				background-position: 0px 5px;
+				margin: 0 auto;
+
+			
+				}
+
+				.left {
+float: left;
+padding-right: 7%;
+padding-top: 20px;
+			}
+		}
 
 @media(max-width: 289px){
 		.search-box{
@@ -603,6 +663,11 @@ header{
 			position: relative;
 			top: -35px;
 			}
+
+		.header-col-1{
+			position: relative;
+			top: 20px;
+		}
 
 			.search-ham button {
 			width: 40px;
@@ -617,15 +682,81 @@ header{
 			.ham{
 				float: none;
 			}
+
+		.search-button-icon{
+			position: relative;
+			top:-35px;
+		}
+
+			.search-drop{
+	position: relative;
+	width:100px;
+	margin-left: 15%;
+}
+
 			
 
 		header{
-				height: 90px;
+				height: 40px;
 			}
 
 			.logo{
 				position: relative;
 				top: -19px;
 			}
+
+			.icons {
+				height: 600px;
+			}
+
+	}
+
+@media(max-width: 265px){
+	.hero{
+		
+		height: 300px;
+	}
+
+	.hero-col-1 {
+padding-top: 10px;
+max-width:90%;
+margin: auto;
+}
+
+.hero-col-1 h1 {
+font-size: 20px;
+float: none;
+position: relative;
+height: 55px;
+
+margin: 0 0 0 60px;
+width: 110px;
+}
+
+.hero-col-1 p {
+	text-align: center;
+}
+
+.hero-col-2 button {
+	float: none;
+	margin-right: 70px;
+}
+
+
+}
+
+@media(max-width: 255px){
+	.hero-col-1 h1 {
+font-size: 20px;
+float: none;
+position: relative;
+height: 55px;
+top:-19px;
+width: 110px;
+}
+
+.header-col-1{
+	top: -10px;
+}
 
 	}

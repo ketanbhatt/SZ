@@ -70,16 +70,21 @@ button, input[type="submit"] {
 
 .nav-ele{
 	display: none;
+	background-color: rgb(3,58,116);
 }
 
 .nav-ele li{
-	background-color: rgba(3,58,116,0.7);
+	background-color: rgb(3,58,116);
 	text-align: center;
 	color: white;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #b9b8b8;
 	
+}
+
+.nav-ele ul{
+	margin: 0px;
 }
 
 .nav-ele li:first-child{
@@ -107,6 +112,30 @@ header{
 	width: 50%;
 	margin-top: 40px;
 }
+
+.search-button-2{
+	width: 20px;
+	margin-right: 50px;
+}
+
+.search-drop{
+	position: relative;
+	width:100px;
+	margin-left: 35%;
+}
+
+.search-button-icon{
+	display: none;
+}
+
+.search-drop-menu{
+	height: 40px;
+	background-color: #033a74;
+	
+	display: none;
+}
+
+
 
 .header-col-1 img {
 	margin-top: 20px;
@@ -166,6 +195,10 @@ header nav a:hover {
 }
 
 .ham{
+	display: none;
+}
+
+.ham-press{
 	display: none;
 }
 
