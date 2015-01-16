@@ -26,7 +26,7 @@
 		<div class="blue-bar">
 
 				<div class = "container">
-					<div class = "ham"> <img src="img/hamburger.png"> </div> <div class = "ham-press">  <img src="img/ham-press.png">  </div>
+					<div class = "ham" class = "ham-press" > </div> 
 					
 					<button class = "search-button-icon"><img src = "img/search-icon.png"/></button>
 					<div class = "search-ham">

@@ -80,7 +80,8 @@ button, input[type="submit"] {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #b9b8b8;
-	
+	font-family: 'Open Sans', sans-serif; 
+
 }
 
 .nav-ele ul{
@@ -196,15 +197,27 @@ header nav a:hover {
 
 .ham{
 	display: none;
+	width: 22px;
+		height: 16px;
+		z-index: 1;
+		background: url("../img/hamburger.png");
 }
 
 .ham-press{
 	display: none;
+	background: url("../img/ham-press.png");
+	width: 22px;
+		height: 16px;
 }
 
 .search-ham{
 	display: none;
 }
+
+.center-div button{
+		font-family: 'Open Sans', sans-serif;
+	}
+
 
 /*---------------Hero--------------*/
 .hero{

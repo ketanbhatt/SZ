@@ -133,6 +133,7 @@ header{
 		margin-bottom: 0px;
 	}
 
+	
 	.header-col-2 nav{
 		display: none;
 		font-size: 8px;
@@ -167,17 +168,18 @@ header{
 	}
 
 	.ham{
-		padding-top: 15px;
+		margin-top: 15px;
 		display:block;
 		float:left;
+
 	}
 
 	.ham-press{
-		position: relative;
+		margin-top: 15px;
+		
 		float: left;
-		right: 0px;
-		top: 15px;
-		display: none;
+		
+		display: block;
 	}
 
 	.header-col-1 img{

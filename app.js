@@ -1,23 +1,22 @@
 jQuery(document).ready(function($){
+
+
+
+
 	$(".ham").click(function(){
 		$(".nav-ele").slideToggle();
-		$(this).toggleClass("active");
-		$(".ham").hide();
-		$(".ham-press").show();
-	});
-
-	$(".ham-press").click(function(){
-		$(".nav-ele").slideToggle();
-		$(this).toggleClass("active");
-		$(".ham").show();
-		$(".ham-press").hide();
+		$(this).toggleClass("ham-press");
+		
 	});
 
 	$(window).resize(function(){
 		if(window.innerWidth > 760) {
 			$(".ham").hide();
+			$(".nav-ele").hide();
+			$(".ham-press").toggleClass(".ham");
 		}else{
 			$(".ham").show();
+			
 		}
 	});
 
@@ -29,8 +28,10 @@ jQuery(document).ready(function($){
 	$(window).resize(function(){
 		if(window.innerWidth > 590) {
 			$(".search-drop-menu").hide();
-			$(".nav-ele").hide();
-			$(".ham-press").hide();
+			
+			
 		}
 	});
+
+	
 });
