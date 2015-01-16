@@ -30,9 +30,10 @@
 					
 					<button class = "search-button-icon"><img src = "img/search-icon.png"/></button>
 					<div class = "search-ham">
-						<input class = "search-box" type = "text" name = "Search"/>
-						
-						<button class = "search-button"><span>Search</span></button>
+						<form method="GET" action="results.php">
+							<input class = "search-box" type = "text" name = "q" required="true"/>
+							<button type="submit" class = "search-button"><span>Search</span></button>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -48,8 +49,10 @@
 					</div>
 					<div class = "search-drop-menu">
 						<div class = "center-div">
-					 		<input class = "search-drop" type = "text" name = "Search"/> 
-							<button class = "button" class = "search-button-2"> Search</button>
+							<form method="GET" action="results.php">
+					 			<input class = "search-drop" type = "text" name = "q" required="true"/> 
+								<button type="submit" class = "button" class = "search-button-2"> Search</button>
+							</form>
 						</div>
 					</div>
 		<header>
@@ -65,8 +68,10 @@
 				</div>
 				<div class="header-col-2">
 					<div class="search">
-						<input class = "search-box" type = "text" name = "Search"/>
-						<button class = "search-button">Search</button>
+						<form method="GET" action="results.php">
+					 		<input class = "search-box" type = "text" name = "q" required="true"/> 
+							<button type="submit" class = "search-button"> Search</button>
+						</form>
 					</div>
 					
 					<nav>
@@ -85,7 +90,7 @@
 		<!--Header Ends-->
 
 <?php 
-		if($pageName != "SupplyZone | Contact Us"){
+		if($pageName != "SupplyZone | Contact Us" AND substr($pageName, 0,6) != "Search"){
 ?>
 		<!--Hero area begins-->
 		<div class = "hero">
