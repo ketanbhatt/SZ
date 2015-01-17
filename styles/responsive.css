@@ -79,10 +79,7 @@
 	}
 
 	/*------------clientele-------------*/
-	.client-images{
-	
-	display:none;
-	}
+
 
 	.clientele{
 		height: 150px;
@@ -94,7 +91,7 @@
 	}
 
 	.client-images-small{
-		display:inline;
+		display:none;
 		box-sizing: border-box;
 	}
 
@@ -102,10 +99,50 @@
 		float:left;
 		margin-left:3%;
 		width:23.5%;
-		height: 77px;
-		background: url("../img/client2-small.png");
+		height: 90px;
+		padding-top:5px;
 		background-repeat: no-repeat;
 }
+
+.client-1{
+	background: url("../img/client1-small.png");
+	background-size: 150px 70px;
+}
+
+.client-2{
+	background: url("../img/client2-small.png");
+	background-size: 100% 70px;
+	background-position: 0px -5px;
+}
+
+.client-3{
+	background: url("../img/client3-small.png");
+	background-size: 100% 65px;
+	background-position: 0px -5px;
+}
+
+
+.client-4{
+	background: url("../img/client4-small.png");
+	background-size: 100% 65px;
+	background-position: 0px -5px;
+	display: none;
+}
+
+.client-5{
+	background: url("../img/client5-small.png");
+	background-size: 100% 65px;
+	background-position: 0px -5px;
+	display: none;
+}
+
+.client-6{
+	background: url("../img/client6-small.png");
+	background-size: 100% 65px;
+	background-position: 0px -5px;
+	display: none;
+}
+
 
 }
 
@@ -265,6 +302,10 @@ header{
 			font-size: 25px;
 		}
 
+		.first-class{
+			width: 150px;
+			height: 71.42px;
+		}
 		.client-images-small li{
 			height: 50px;
 			background-position: 0px -8px;

@@ -33,5 +33,50 @@ jQuery(document).ready(function($){
 		}
 	});
 
+		
+
+
+
+
+	//--------------------------Jquery code for clientele slider begins
+
+	/*var currentIndex = 0,
+  items = $('.client-images div'),
+  itemAmt = items.length;
+
+function cycleItems() {
+  var item = $('.client-images div').eq(currentIndex);
+  items.hide();
+  item.css('display','inline-block');
+}
+
+var autoSlide = setInterval(function() {
+  currentIndex += 1;
+  if (currentIndex > itemAmt - 1) {
+    currentIndex = 0;
+  }
+  cycleItems();
+}, 3000);
+
+$('.left').click(function() {
+  clearInterval(autoSlide);
+  currentIndex += 1;
+  if (currentIndex > itemAmt - 1) {
+    currentIndex = 0;
+  }
+  cycleItems();
+});
+
+$('.right').click(function() {
+  clearInterval(autoSlide);
+  currentIndex -= 1;
+  if (currentIndex < 0) {
+    currentIndex = itemAmt - 1;
+  }
+  cycleItems();
+});*/
+
+
+
 	
 });

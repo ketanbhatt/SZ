@@ -58,26 +58,106 @@
 			<div class = "container">
 				<div class = "client-wrap">
 					<h2> Clientele </h2>
-					<ul>
-						<li > <img class = "left" src = "img/arrow-left.png"> </li>
-							<div class = "client-images"><ul>
-								<li  class = "f-left"> <img src = "img/client1.png"> </li>
-								<li  class = "f-left"> <img src = "img/client2.png"> </li>
-								<li  class = "f-right"> <img src = "img/client3.png"> </li>
-								<li  class = "f-right" > <img class = "last-image" src = "img/client3.png"> </li>
-							</ul></div>
-						<li> <img class = "right" src = "img/arrow-right.png"> </li>
-					</ul>
+					
+						
+						<div class="clientele-slider">
+						  <div><img src = "img/client1.png"> </div>
+						  <div><img src = "img/client2.png"> </div>
+						  <div><img src = "img/client3.png"> </div>
+						   <div><img src = "img/client4.png"> </div>
+						    <div><img src = "img/client5.png"></div>
+						     <div><img src = "img/client6.png"></div>
+						     <div><img src = "img/client7.png"></div>
+						     <div><img src = "img/client8.png"></div>
+						     <div><img src = "img/client9.png"></div>
+						     <div><img src = "img/client10.png"></div>
+						     <div><img src = "img/client12.png"></div>
+						     <div><img src = "img/client13.png"></div>
+						     <div><img src = "img/client14.png"></div>
+						     <div><img src = "img/client15.png"></div>
+						     <div><img src = "img/client16.png"></div>
+						</div>
+
+							 <script type="text/javascript">
+									$(document).ready(function(){
+										$('.your-class').slick({
+										   infinite: true,
+											  slidesToShow: 4,
+											  slidesToScroll: 4,
+											  autoplay: true,
+  												autoplaySpeed: 2000,
+											  responsive: [
+											    {
+											      breakpoint: 1024,
+											      settings: {
+											        slidesToShow: 3,
+											        slidesToScroll: 3,
+											        infinite: true,
+											        dots: true
+											      }
+											    },
+											    {
+											      breakpoint: 600,
+											      settings: {
+											        slidesToShow: 2,
+											        slidesToScroll: 2
+											      }
+											    },
+											    {
+											      breakpoint: 480,
+											      settings: {
+											        slidesToShow: 1,
+											        slidesToScroll: 1
+											      }
+											    }
+											  ]
+																					});
+																				});
+							</script>
+
+
+					<!--<ul>
+						
+							<div class = "client-images">
+								<ul>
+									<div class = "first-class"> <li  class = "f-left"> <img src = "img/client1.png"> </li>
+									<li  class = "f-left"> <img src = "img/client2.png"> </li>
+									<li  class = "f-right"> <img src = "img/client3.png"> </li>
+									<li  class = "f-right" > <img class = "last-image" src = "img/client4.png"> </li></div>
+
+
+									<div class = "last-class" ><li  class = "f-left"> <img src = "img/client5.png"> </li>
+									<li  class = "f-left" > <img class = "last-image" src = "img/client6.png"> </li>
+									<li  class = "f-right"> <img src = "img/client7.png"> </li>
+									<li  class = "f-right" > <img class = "last-image" src = "img/client8.png"> </li></div>
+
+									<div class = "last-class" ><li  class = "f-left"> <img src = "img/client9.png"> </li>
+									<li  class = "f-left" > <img class = "last-image" src = "img/client10.png"> </li>
+									<li  class = "f-right"> <img src = "img/client11.png"> </li>
+									<li  class = "f-right" > <img class = "last-image" src = "img/client12.png"> </li></div>
+
+									<div class = "last-class" ><li  class = "f-left"> <img src = "img/client13.png"> </li>
+									<li  class = "f-left" > <img class = "last-image" src = "img/client14.png"> </li>
+									<li  class = "f-right"> <img src = "img/client15.png"> </li>
+									<li  class = "f-right" > <img class = "last-image" src = "img/client16.png"> </li></div>
+								</ul>
+							</div>
+						
+					</ul>-->
 				</div>
 
-				<div class = "client-images-small">
-					<ul>
-						<li ></li>
-						<div class = "pos-small"><ul>
+				<!--<div class = "client-images-small">
+					<div>
+							<li class = "client-1"> </li>
 							<li class = "client-2"></li>
 							<li class ="client-3"></li>
-						</ul></div>
-					</ul>
+					</div>
+
+					<div>
+							<li class = "client-4"> </li>
+							<li class = "client-5"></li>
+							<li class ="client-6"></li>
+					</div>-->
 				</div>
 			</div>
 		</div>

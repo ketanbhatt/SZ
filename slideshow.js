@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-
+	console.log("hahshas");
 	var time = 2000;
 
     function infinite () {
