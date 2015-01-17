@@ -48,29 +48,31 @@
 			//Password to use for SMTP authentication
 			$mail->Password = "4cb8eb51-0539-4248-b3d2-7b7741857ad0";
 			//Set who the message is to be sent from
-			$mail->setFrom('ktbt10@gmail.com', $name);
+			$mail->setFrom('jcbhatt@supplyzone.in', $name);
 			//Set an alternative reply-to address
 			$mail->addReplyTo($email,$name);
 			//Set who the message is to be sent to
 			$mail->addAddress('jcbhatt@supplyzone.in', "J. C. Bhatt");
 			//Set the subject line
-			$mail->Subject = "Enquiry from $name on SupplyZone.in";
+			$mail->Subject = "Enquiry from $name on Supplyzone.in";
 			//Read an HTML message body from an external file, convert referenced images to embedded,
+			$body = "$name submitted the form on Supplyzone.in <br><br><br>Message: <q>".$msg."</q><br><br>Reply to his Email on $email.
+						<br><br>Or contact him on $phn.<br><br><br>Thanks";
 			//convert HTML into a basic plain-text alternative body
-			$mail->msgHTML($msg);
+			$mail->msgHTML($body);
 
 			//send the message, check for errors
-/*			if (!$mail->send()) {
+			if (!$mail->send()) {
 			    echo "Mailer Error: " . $mail->ErrorInfo;
 			    exit;
 			} else {
 				header("Location:../response.php?status=thanks");
 				exit;
-			}	*/
+			}	
 
-			header("Location:../response.php?status=thanks");
+		/*	header("Location:../response.php?status=thanks");
 			exit;
-
+*/
 		}
 ?>
 		
