@@ -14,8 +14,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src = "app.js"></script>
-		<script type="text/javascript" src = "slideshow.js"></script>
+		<script type="text/javascript" src = "js/app.js"></script>
+		<script type="text/javascript" src = "js/slideshow.js"></script>
 		<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
 
 		
