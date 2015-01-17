@@ -19,7 +19,7 @@
 		<!--			<img src="<?php echo $category["img"]; ?>">  -->
 				</div>
 				<div class="product-col-2">
-					<h3><?php echo "<a href=\"product.php?id=$id\">$category[name]</a>"; ?></h3>
+					<h3><?php echo "<a href=\"product.php?id=$id&name=$category[name]\">$category[name]</a>"; ?></h3>
 					<p><?php echo $category["desc-short"] ?></p>
 				</div>
 			</li>
