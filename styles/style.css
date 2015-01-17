@@ -389,6 +389,9 @@ header nav a:hover {
 	display: none;
 }
 
+.clientele-slider{
+	margin: auto;
+}
 /*---------------Products Page--------------*/
 
 .products-page {

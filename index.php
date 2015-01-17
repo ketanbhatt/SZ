@@ -80,12 +80,13 @@
 
 							 <script type="text/javascript">
 									$(document).ready(function(){
-										$('.your-class').slick({
+										$('.clientele-slider').slick({
 										   infinite: true,
 											  slidesToShow: 4,
 											  slidesToScroll: 4,
 											  autoplay: true,
   												autoplaySpeed: 2000,
+  												dots: false,
 											  responsive: [
 											    {
 											      breakpoint: 1024,
@@ -93,18 +94,18 @@
 											        slidesToShow: 3,
 											        slidesToScroll: 3,
 											        infinite: true,
-											        dots: true
+											        dots: false
 											      }
 											    },
 											    {
-											      breakpoint: 600,
+											      breakpoint: 680,
 											      settings: {
 											        slidesToShow: 2,
 											        slidesToScroll: 2
 											      }
 											    },
 											    {
-											      breakpoint: 480,
+											      breakpoint: 482,
 											      settings: {
 											        slidesToShow: 1,
 											        slidesToScroll: 1
