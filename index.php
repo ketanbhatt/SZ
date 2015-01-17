@@ -14,12 +14,10 @@
 						
 							<img class = "icons-icon" src = "img/onestop.png" /> 
 							<h3> One Stop Solution </h3>
-							<p> Lorem ipsum dolor sit amet, 
-								consectetur adipiscing elit. 
-								Proin magna justo, mollis 
-								nec sollicitudin non, 
-								Suspendisse bibendum 
-							 
+							<p> We supply a vast variety of 
+								material and deliver services,
+								meeting the demands of our ever
+								increasing clientele	
 							</p>
 						
 					</li>
@@ -27,11 +25,10 @@
 						<!--second Icon-->
 						<img class = "icons-icon" src = "img/airplane.png" /> 
 						<h3> Scope Of Delivery </h3>
-						<p> Lorem ipsum dolor sit amet, 
-							consectetur adipiscing elit. 
-							Proin magna justo, mollis 
-							nec sollicitudin non, 
-							Suspendisse bibendum  
+						<p> SupplyZone specializes in 
+							quick delivery of your material,
+							right to your company's doorstep, 
+							wherever it might be  
 							 
 						</p>
 					</li>
@@ -39,11 +36,11 @@
 						<!--third Icon-->
 						<img class = "icons-icon" src = "img/time.png" /> 
 						<h3> Dependable Business</h3>
-						<p> Lorem ipsum dolor sit amet, 
-							consectetur adipiscing elit. 
-							Proin magna justo, mollis 
-							nec sollicitudin non, 
-							Suspendisse bibendum 
+						<p> We take pride in keeping
+							our promises, always. Stay
+							assured of the quality and 
+							standards, because we deliver
+							value 
 							
 						</p>
 					</li>
