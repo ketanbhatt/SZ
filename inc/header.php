@@ -105,9 +105,39 @@
 			<div class = "container">
 				<!--Main Title-->
 				<div class="hero-col-1">
-					<h1 id="hero-title"> Main Title 1</h1>
+					<h1 id="hero-title-1" > Main Title 1</h1>
 						<!--Paragraph text-->
-					<p id="hero-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					<p id="hero-para-1" > Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
+						aliquet sapien, non pellentesque felis. <br><br>
+						Cras justo libero, v
+						iverra id odio in, vehicula ultricies massa. Curabitur diam tellus, 
+						posuere et eleifend vehicula.
+					</p>
+
+					<h1 id="hero-title-2" style="display:none"> Main Title 2</h1>
+						<!--Paragraph text-->
+					<p id="hero-para-2" style="display:none"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
+						aliquet sapien, non pellentesque felis. <br><br>
+						Cras justo libero, v
+						iverra id odio in, vehicula ultricies massa. Curabitur diam tellus, 
+						posuere et eleifend vehicula.
+					</p>
+
+					<h1 id="hero-title-3" style="display:none"> Main Title 3</h1>
+						<!--Paragraph text-->
+					<p id="hero-para-3" style="display:none"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
+						aliquet sapien, non pellentesque felis. <br><br>
+						Cras justo libero, v
+						iverra id odio in, vehicula ultricies massa. Curabitur diam tellus, 
+						posuere et eleifend vehicula.
+					</p>
+
+					<h1 id="hero-title-4" style="display:none"> Main Title 4</h1>
+						<!--Paragraph text-->
+					<p id="hero-para-4" style="display:none"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 						Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
 						aliquet sapien, non pellentesque felis. <br><br>
 						Cras justo libero, v

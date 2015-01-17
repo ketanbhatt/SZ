@@ -1,44 +1,60 @@
 $( document ).ready(function() {
 
-	console.log("hahshas");
-	var time = 2000;
+	var time = 6000;
 
     function infinite () {
 
-	    $("div.hero")
+    	$("div.hero")
 	    	.delay( time ).fadeOut(400)
 	    	.queue( function(next){ 
-	    		$(this).css("background-image","url(./img/hero-images/2.jpg)");
-	    		$( "#hero-title" ).html( "Main Title 2" );
-	    		$( "#hero-para" ).html( "text <br><br> 2" );
+	    		$(this).css("background-image","url(./img/hero-images/2.png)");
+	    		$( "#hero-title-1" ).hide();
+	    		$( "#hero-para-1" ).hide();
+	    		$( "#hero-title-2" ).show();
+	    		$( "#hero-para-2" ).show();
+	    		$( "#hero-title-3" ).hide();
+	    		$( "#hero-para-3" ).hide();
+	    		$( "#hero-title-4" ).hide();
+	    		$( "#hero-para-4" ).hide();
 	    		next();
 	    	}).fadeIn(400)
 	    	.delay( time ).fadeOut(400)
 	    	.queue( function(next){ 
-	    		$(this).css("background-image","url(./img/hero-images/3.jpg)");
-	    		$( "#hero-title" ).html( "Main Title 3" );
-	    		$( "#hero-para" ).html( "text <br><br> 3" );
+	    		$(this).css("background-image","url(./img/hero-images/3.png)");
+	    		$( "#hero-title-1" ).hide();
+	    		$( "#hero-para-1" ).hide();
+	    		$( "#hero-title-2" ).hide();
+	    		$( "#hero-para-2" ).hide();
+	    		$( "#hero-title-3" ).show();
+	    		$( "#hero-para-3" ).show();
+	    		$( "#hero-title-4" ).hide();
+	    		$( "#hero-para-4" ).hide();
 	    		next();
 	    	}).fadeIn(400)
 	    	.delay( time ).fadeOut(400)
 	    	.queue( function(next){ 
-	    		$(this).css("background-image","url(./img/hero-images/4.jpg)");
-	    		$( "#hero-title" ).html( "Main Title 4" );
-	    		$( "#hero-para" ).html( "text <br><br> 4" );
+	    		$(this).css("background-image","url(./img/hero-images/4.png)");
+	    		$( "#hero-title-1" ).hide();
+	    		$( "#hero-para-1" ).hide();
+	    		$( "#hero-title-2" ).hide();
+	    		$( "#hero-para-2" ).hide();
+	    		$( "#hero-title-3" ).hide();
+	    		$( "#hero-para-3" ).hide();
+	    		$( "#hero-title-4" ).show();
+	    		$( "#hero-para-4" ).show();
 	    		next();
 	    	}).fadeIn(400)
 	    	.delay( time ).fadeOut(400)
 	    	.queue( function(next){ 
-	    		$(this).css("background-image","url(./img/hero-images/5.jpg)");
-	    		$( "#hero-title" ).html( "Main Title 5" );
-	    		$( "#hero-para" ).html( "text <br><br> 5" );
-	    		next();
-	    	}).fadeIn(400)
-	    	.delay( time ).fadeOut(400)
-	    	.queue( function(next){ 
-	    		$(this).css("background-image","url(./img/hero-images/1.jpg)");
-	    		$( "#hero-title" ).html( "Main Title 1" );
-	    		$( "#hero-para" ).html( "text <br><br> 1" );
+	    		$(this).css("background-image","url(./img/hero-images/1.png)");
+	    		$( "#hero-title-1" ).show();
+	    		$( "#hero-para-1" ).show();
+	    		$( "#hero-title-2" ).hide();
+	    		$( "#hero-para-2" ).hide();
+	    		$( "#hero-title-3" ).hide();
+	    		$( "#hero-para-3" ).hide();
+	    		$( "#hero-title-4" ).hide();
+	    		$( "#hero-para-4" ).hide();
 	    		next();
 	    	}).fadeIn(400);
 
@@ -46,8 +62,9 @@ $( document ).ready(function() {
 
 	    infinite();
 
-	    setInterval(infinite,time*5);
+	    setInterval(infinite,time*2);
     	
 
 
 });
+
