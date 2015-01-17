@@ -74,20 +74,4 @@
 		We can take up...",
 		"desc-long" => "We are engaged in supplying excellent quality Rubber O Rings to nationwide customers. 
 		We can take up bulk orders of Rubber O Rings and ensure to provide it at any specified location.");
-
-	$categories[]=array("name" => "Medical Equipment", 
-		"img" => "img/products/009.jpg",
-		"desc-short" => "We offer a range of Medical Equipment that comprises of Custom Built Operation Theater, 
-			Custom Built Lighting System...",
-		"desc-long" => "We offer a range of Medical Equipment that comprises of Custom Built Operation Theater, 
-			Custom Built Lighting System and Hospital Furniture. We test quality and reliability of Medical 
-			Equipment before final dispatch to the customers. We can provide Medical Equipment at a market leading price.");
-
-	$categories[]=array("name" => "Power Equipment", 
-		"img" => "img/products/010.jpg",
-		"desc-short" => "We are considered as a Wholesale Supplier of Power Equipments in New Delhi. We offer a range 
-			of Power Equipments...",
-		"desc-long" => "We are considered as a Wholesale Supplier of Power Equipments in New Delhi. We offer a range 
-			of Power Equipments that comprises of Servo Controlled Stabilizers and 9.2 Special Purpose Transformer.");
-		
 ?>

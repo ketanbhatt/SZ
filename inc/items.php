@@ -188,47 +188,5 @@
 			)
 		);
 
-	$items[]=array(
-		array(
-			"name" => "",
-			"desc" => "We offer a range of Medical Equipment that comprises of Custom Built Operation Theater, Custom Built 
-				Lighting System and Hospital Furniture. We test quality and reliability of Medical Equipment before final 
-				dispatch to the customers. We can provide Medical Equipment at market leading rates.
-
-				Specialties
-
-				•	Quality tested
-				•	High performance
-				•	Longer working life
-				•	Reasonable rates
-
-				Range
-
-				•	Custom Built Operation Theater
-				•	Custom Built Lighting System
-				•	Hospital Furniture"
-			)
-		);
-
-	$items[]=array(
-		array(
-			"name" => "",
-			"desc" => "We are considered as Wholesale Supplier of Power Equipments in New Delhi. We offer a range of Power 
-				Equipments that comprises of Servo Controlled Stabilizers and 9.2 Special Purpose Transformer.
-
-			Highlights
-
-			•	Highly efficient
-			•	Reliable service life
-			•	Quality tested
-			•	Affordable rates
-
-			Range
-
-			•	Servo Controlled Stabilizers
-			•	Special Purpose Transformer"
-			)
-		);
-
 
 ?>
