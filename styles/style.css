@@ -922,7 +922,30 @@ footer hr {
 		width: 150px;
 		height: 150px;
 	}
+	
+	/*------------Form in Hero-------------*/
 
+	.hero-col-2 {
+		font-size: 0.6em;
+	}	
+
+	.hero-col-2 .contact-col-1 {
+		padding-left: 5%;
+		padding-right: 5px;
+	}
+
+	.hero-col-2 .contact-col-2 {
+		padding-right: 5%;
+		padding-left: 5px;
+	}
+
+	.hero-col-2 .contact-col-1 input{
+		width: 110px;
+	}
+
+	.hero-col-2 .contact textarea {
+		width: 110px;
+	}
 
 
 }
@@ -1098,27 +1121,12 @@ header{
 
 /*------------Form in Hero-------------*/
 
-	.hero-col-2 {
-		font-size: 0.6em;
-	}	
-
-	.hero-col-2 .contact-col-1 {
-		padding-left: 5%;
-		padding-right: 5px;
+	#form-hero {
+		display: none;
 	}
+}
 
-	.hero-col-2 .contact-col-2 {
-		padding-right: 5%;
-		padding-left: 5px;
-	}
 
-	.hero-col-2 .contact-col-1 input{
-		width: 110px;
-	}
-
-	.hero-col-2 .contact textarea {
-		width: 110px;
-	}
 
 }
 
@@ -1152,11 +1160,7 @@ header{
 		height: 187px;
 	}
 
-	/*------------Form in Hero-------------*/
-
-	#form-hero {
-		display: none;
-	}
+	
 
 	/*------------Form in Index------------*/
 	
