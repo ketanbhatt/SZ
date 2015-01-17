@@ -18,8 +18,12 @@
 					</div>
 					<div class="footer-col-2">
 						<div class = "footer-buttons">
-							<button name = "IntroLetter"> <img class = "downimg" src="img/download.png">Intro Letter</button>
-							<button name = "ClientList"> <img class = "downimg" src="img/download.png">Client List</button>
+							<form target="_blank" method="get" action="download/intro.pdf">
+								<button type="submit" name = "IntroLetter"> <img class = "downimg" src="img/download.png">Intro Letter</button>
+							</form>
+							<form target="_blank" method="get" action="download/client.pdf">
+								<button type="submit" name = "ClientList"> <img class = "downimg" src="img/download.png">Client List</button>
+							</form>
 						</div>
 
 						
