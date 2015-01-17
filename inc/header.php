@@ -100,44 +100,36 @@
 			<div class = "container">
 				<!--Main Title-->
 				<div class="hero-col-1">
-					<h1 id="hero-title-1" > Main Title 1</h1>
+					<h1 id="hero-title-1" >Essentials</h1>
 						<!--Paragraph text-->
-					<p id="hero-para-1" > Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
-						aliquet sapien, non pellentesque felis. <br><br>
-						Cras justo libero, v
-						iverra id odio in, vehicula ultricies massa. Curabitur diam tellus, 
-						posuere et eleifend vehicula.
+					<p id="hero-para-1" > SupplyZone provides every tid-bit material a company requires 
+						during it's day-to-day operation. You can select from a wide ranege of essentials
+						at just the right price and delievered with accuracy.<br>
+						Please use the form to send an inquiry to us. Looking forward to dealing with you. 
 					</p>
 
-					<h1 id="hero-title-2" style="display:none"> Main Title 2</h1>
+					<h1 id="hero-title-2" style="display:none">Material Handling</h1>
 						<!--Paragraph text-->
-					<p id="hero-para-2" style="display:none"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
-						aliquet sapien, non pellentesque felis. <br><br>
-						Cras justo libero, v
-						iverra id odio in, vehicula ultricies massa. Curabitur diam tellus, 
-						posuere et eleifend vehicula.
+					<p id="hero-para-2" style="display:none">SupplyZone specializes in delivering high quality 
+						conveyors, that are known to be the best in their class, and low on maintenance. 
+						Installation and customer satisfaction guaranteed.<br>
+						Please use the form to send an inquiry to us. Looking forward to dealing with you.
 					</p>
 
-					<h1 id="hero-title-3" style="display:none"> Main Title 3</h1>
+					<h1 id="hero-title-3" style="display:none">Kitchen Eqipments</h1>
 						<!--Paragraph text-->
-					<p id="hero-para-3" style="display:none"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
-						aliquet sapien, non pellentesque felis. <br><br>
-						Cras justo libero, v
-						iverra id odio in, vehicula ultricies massa. Curabitur diam tellus, 
-						posuere et eleifend vehicula.
+					<p id="hero-para-3" style="display:none">We have perfect practical solutions for your factory canteen
+						and cafeterias alike. SupplyZone provided Bain Marie and canteen tables are sturdy
+						and durable. They are our star performers.<br>
+						Please use the form to send an inquiry to us. Looking forward to dealing with you.
 					</p>
 
-					<h1 id="hero-title-4" style="display:none"> Main Title 4</h1>
+					<h1 id="hero-title-4" style="display:none">Built, with love</h1>
 						<!--Paragraph text-->
-					<p id="hero-para-4" style="display:none"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
-						aliquet sapien, non pellentesque felis. <br><br>
-						Cras justo libero, v
-						iverra id odio in, vehicula ultricies massa. Curabitur diam tellus, 
-						posuere et eleifend vehicula.
+					<p id="hero-para-4" style="display:none">Our workers are true professionals and dedicated to
+						their work. They give their undivided attention to the task they set out to do,
+						and it shows. The results are unmatched by any other supplier.<br>
+						Please use the form to send an inquiry to us. Looking forward to dealing with you.
 					</p>
 				</div>
 
