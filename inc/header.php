@@ -17,6 +17,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src = "app.js"></script>
+		<script type="text/javascript" src = "slideshow.js"></script>
 	</head>
 
 	<body>
@@ -97,13 +98,11 @@
 			<div class = "container">
 				<!--Main Title-->
 				<div class="hero-col-1">
-					<h1> Main Title </h1>
+					<h1 id="hero-title"> Main Title 1</h1>
 						<!--Paragraph text-->
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					<p id="hero-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 						Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
-						aliquet sapien, non pellentesque felis. 
-					</p>
-					<p>
+						aliquet sapien, non pellentesque felis. <br><br>
 						Cras justo libero, v
 						iverra id odio in, vehicula ultricies massa. Curabitur diam tellus, 
 						posuere et eleifend vehicula.
