@@ -662,6 +662,10 @@ header{
 	margin-left: 25%;
 }
 
+.hero-col-2 button {
+margin-top: 75px;
+}
+
 }		
 
 @media(max-width: 379px){
