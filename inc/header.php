@@ -124,8 +124,9 @@
 							
 					} else {
 ?>
-					
-					<button>Read More</Button>
+					<form action="products.php">
+						<button type="submit">Read More</Button>
+					</form>
 <?php
 					}}
 ?>
