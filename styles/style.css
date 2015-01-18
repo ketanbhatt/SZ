@@ -10,8 +10,6 @@
 	padding:0px;
 }
 
-html {
-}
 
 a {
 	text-decoration: none;
@@ -33,7 +31,7 @@ h2 {
 }
 
 h3 {
-	margin: 20 0 10px 0;
+	margin: 20px 0px 10px 0px;
 	color: #033a74;
 	font-family: 'Merriweather', serif;
 	font-size: 22px;
@@ -111,12 +109,14 @@ header{
 	
 	height: 100px;
 	float: left;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
 .header-col-2 {
 	float: right;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 50%;
@@ -348,6 +348,7 @@ header nav a:hover {
 	max-width: 33.33333%;
 	text-align: center;
 	float: left;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding-left:3%;
@@ -440,12 +441,14 @@ header nav a:hover {
 	border-radius: 10px;
 	float: left;
 	background-color: #b9b8b8;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
 .product-col-2 {
 	float: right;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 55%;
@@ -499,6 +502,7 @@ header nav a:hover {
 
 .contact-col-1 {
 	float: left;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box ;
 	width: 50%;
@@ -509,6 +513,7 @@ header nav a:hover {
 
 .contact-col-2 {
 	float: right;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 50%;
@@ -590,6 +595,7 @@ footer .footer-col-1 {
 	width: 40%;
 	float: left;
 	font-weight: bold;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	margin-top: 0px;
@@ -602,6 +608,7 @@ footer .footer-col-1 {
 footer .footer-col-2 {
 	width: 60%;
 	float: right;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	margin-top: 8px;
@@ -807,6 +814,7 @@ footer hr {
 
 	.client-images-small{
 		display:none;
+	-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 	}
