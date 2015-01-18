@@ -237,7 +237,7 @@ header nav a:hover {
 .hero-col-1{
 	float:left;
 	padding-top: 20px;
-	max-width: 450px;
+	max-width: 430px;
 	
 	color: #fff;
 }
@@ -279,6 +279,7 @@ header nav a:hover {
 	line-height: 250%;
 	color: white;
 }
+
 
 
 /*------------Form in Hero-------------*/
@@ -951,6 +952,7 @@ footer hr {
 }
 
 @media all and (max-width:850px) {
+
 	.container{
 		max-width:95%;
 
