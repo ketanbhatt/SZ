@@ -112,50 +112,7 @@
 																					});
 																				});
 							</script>
-
-
-					<!--<ul>
-						
-							<div class = "client-images">
-								<ul>
-									<div class = "first-class"> <li  class = "f-left"> <img src = "img/client1.png"> </li>
-									<li  class = "f-left"> <img src = "img/client2.png"> </li>
-									<li  class = "f-right"> <img src = "img/client3.png"> </li>
-									<li  class = "f-right" > <img class = "last-image" src = "img/client4.png"> </li></div>
-
-
-									<div class = "last-class" ><li  class = "f-left"> <img src = "img/client5.png"> </li>
-									<li  class = "f-left" > <img class = "last-image" src = "img/client6.png"> </li>
-									<li  class = "f-right"> <img src = "img/client7.png"> </li>
-									<li  class = "f-right" > <img class = "last-image" src = "img/client8.png"> </li></div>
-
-									<div class = "last-class" ><li  class = "f-left"> <img src = "img/client9.png"> </li>
-									<li  class = "f-left" > <img class = "last-image" src = "img/client10.png"> </li>
-									<li  class = "f-right"> <img src = "img/client11.png"> </li>
-									<li  class = "f-right" > <img class = "last-image" src = "img/client12.png"> </li></div>
-
-									<div class = "last-class" ><li  class = "f-left"> <img src = "img/client13.png"> </li>
-									<li  class = "f-left" > <img class = "last-image" src = "img/client14.png"> </li>
-									<li  class = "f-right"> <img src = "img/client15.png"> </li>
-									<li  class = "f-right" > <img class = "last-image" src = "img/client16.png"> </li></div>
-								</ul>
-							</div>
-						
-					</ul>-->
-				</div>
-
-				<!--<div class = "client-images-small">
-					<div>
-							<li class = "client-1"> </li>
-							<li class = "client-2"></li>
-							<li class ="client-3"></li>
 					</div>
-
-					<div>
-							<li class = "client-4"> </li>
-							<li class = "client-5"></li>
-							<li class ="client-6"></li>
-					</div>-->
 				</div>
 			</div>
 		</div>
