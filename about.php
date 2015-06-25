@@ -11,7 +11,7 @@
 				<p> Situated in New Delhi (India), SupplyZone started its business operations in the year 2010. 
 					It is the business acumen of Mr. Jagdish Bhatt that has led us to the path of success despite 
 					of all odds. We provide our products in India and abroad. We have already supplied to companies
-					in Bangladesh, Nepal and Ghana and frequently import material from New Jersey. Our team has years of 
+					in Bangladesh, Nepal and Ghana and frequently import material from the US. Our team has years of 
 					industrial experience in FMCGs, Automobile sector, Process industry, Electronics 
 					and Electrical industry, Power equipment and design &amp; development of various equipments for 
 					Indian Air force, Indian Army, Picture tube industry and consumer electronics.​ 

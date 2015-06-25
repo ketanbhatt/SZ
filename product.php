@@ -2,7 +2,7 @@
 
 	$pageName = "Product Information | ".$_GET["name"];
 	require 'inc/header.php';
-	require 'inc\items.php';
+	require 'inc/items.php';
 
 	if(isset($_GET["id"]) AND isset($items[$_GET["id"]])){
 

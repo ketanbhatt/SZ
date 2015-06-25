@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-	var time = 6000;
+	var time = 8000;
 
     function infinite () {
 

@@ -1,5 +1,5 @@
 <?php 
-		$pageName = "SupplyZone | Products";
+		$pageName = "SupplyZone | Products | Best quaility Sheet Metal Components, Kitchen Equipment, Conveyors in Delhi";
 		require 'inc/header.php';
 ?>
 	
@@ -11,7 +11,7 @@
 		<ul class="products-list">
 
 <?php	
-		require 'inc\categories.php';
+		require 'inc/categories.php';
 		foreach($categories as $id => $category){
 ?>
 			<li>

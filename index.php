@@ -1,5 +1,5 @@
 <?php 
-		$pageName = "SupplyZone | Home Page";
+		$pageName = "SupplyZone | Best quality Sheet Metal Components, Kitchen Equipment, Conveyors in Delhi";
 		require 'inc/header.php';
 ?>
 

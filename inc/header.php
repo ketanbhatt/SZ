@@ -5,12 +5,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
 		<title><?php echo "$pageName" ; ?></title>
+		<link rel="icon" href="favicon.ico" type="image/ico">
 		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<!--[if lte IE 8]>
+   			<link rel="stylesheet" type="text/css" href="styles/ie.css" />
+ 		<![endif]-->
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
 
 		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+
+		<!--[if lte IE 8]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src = "js/app.js"></script>
@@ -61,8 +69,8 @@
 			<div class = "container">
 
 				<div class="header-col-1">
-					<div class = "logo">
-						<img src = "img/logo.png " alt="This is the logo" />
+					<div class = "logo"><a href="index.php">
+						<img src = "img/logo.png " alt="This is the logo" /></a>
 					</div>
 				</div>
 				<div class="header-col-2">
@@ -98,9 +106,9 @@
 				<div class="hero-col-1">
 					<h1 id="hero-title-1" >Essentials</h1>
 						<!--Paragraph text-->
-					<p id="hero-para-1" > SupplyZone provides every tid-bit material a company requires 
-						during it's day-to-day operation. You can select from a wide ranege of essentials
-						at just the right price and delievered with accuracy.<br>
+					<p id="hero-para-1" > SupplyZone provides all crucial components a company requires 
+						during it's day-to-day operation. You can select from a wide range of essentials
+						at just the right price and get it delivered with accuracy.<br>
 						Please use the form to send an inquiry to us. Looking forward to dealing with you. 
 					</p>
 
@@ -112,7 +120,7 @@
 						Please use the form to send an inquiry to us. Looking forward to dealing with you.
 					</p>
 
-					<h1 id="hero-title-3" style="display:none">Kitchen Eqipments</h1>
+					<h1 id="hero-title-3" style="display:none">Kitchen Equipment</h1>
 						<!--Paragraph text-->
 					<p id="hero-para-3" style="display:none">We have perfect practical solutions for your factory canteen
 						and cafeterias alike. SupplyZone provided Bain Marie and canteen tables are sturdy
@@ -134,7 +142,7 @@
 				<div class="hero-col-2">
 
 <?php 
-					if($pageName != "SupplyZone | Home Page"){
+					if($pageName != "SupplyZone | Best quality Sheet Metal Components, Kitchen Equipment, Conveyors in Delhi"){
 
 						echo "<div id='form-hero'>";
 
